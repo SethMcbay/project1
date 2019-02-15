@@ -3,11 +3,12 @@ let word = ''
 let counter = 0
 let score = 0
 let limit = 6
+let count = 0
 
 function userScores() {
   counter += 1
   $('.scoreboard').html(counter)
-  console.log(counter)
+
 }
 
 $('#start').on('click', getRandomWord = () => {
@@ -27,13 +28,30 @@ let loseCounter = 6
 $('.grid-item').on('click', function () {
   $(this).css('color', 'lightgray')
   let letterThis = $(this)[0].textContent
-  console.log(letterThis)
   $(`.${letterThis}`).text(letterThis)
+  let split = word.split('')
+  // if(split.includes(letterThis)){
+
+  //   winArr.push(letterThis)
+  // }
+  
+  for(let i = 0; i < split.length; i++){
+    if(split[i] === letterThis){
+      count ++
+    }
+  }
   checkForWin(letterThis)
 })
 
 function checkForWin(letter) {
   let amountOfTimesLetterIsNotInWord = 0
+  let wordArr = word.split('')
+  // if(winArr.length === wordArr.length) {
+  //   alert('you win!')
+  // }
+  if(count === wordArr.length){
+    alert('you win')
+  }
   for (let i = 0; i < word.length; i++) {
     if (letter !== word[i]) {
       amountOfTimesLetterIsNotInWord += 1
