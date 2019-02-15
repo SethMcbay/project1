@@ -10,3 +10,25 @@ h2 {
 .button {
     text-align: center;
 }
+
+.underline {
+    margin-top: 50px;
+    margin-right: 10px;
+    border-bottom: 5px solid black;
+    width: 25px;
+}
+
+.underline-container {
+    display: flex;
+    justify-content: center;
+    max-width: 300px;
+
+}
+
+.grid-container {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    width: 200px;
+    font-size: 25px;
+  }

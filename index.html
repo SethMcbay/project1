@@ -1,27 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
-    <script src="https://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>  
-    <!-- <script src="js/main.js"></script> -->
+    <script src="https://code.jquery.com/jquery-3.1.1.js"
+        integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>
     <script defer src="script.js"></script>
 
     <title>Hangman</title>
-    
+
 </head>
+
 <body>
     <h1>HANGMAN!</h1>
-    <button type="button" id="start">Start!</button>
-    <button type="button">Reset</button>
-    <img src="/img/batman.png" alt="hanging batman">
+    <button type="submit" id="start">Start!</button>
+    <button type="submit" onclick="resetFunc()">Reset</button>
+    <button type="submit" id="hint">Hint</button>
+    <!-- <img src="/img/batman.png" alt="hanging batman"> -->
     <div class="word">
-        
-       
     </div>
-    
-    
+    <div class="underline-container">
+    </div>
+    <div class="grid-container">
+            <div class="grid-item">A</div>
+            <div class="grid-item">B</div>
+            <div class="grid-item">C</div>
+            <div class="grid-item">D</div>
+            <div class="grid-item">E</div>
+            <div class="grid-item">F</div>
+            <div class="grid-item">G</div>
+            <div class="grid-item">H</div>
+            <div class="grid-item">I</div>
+            <div class="grid-item">J</div>
+            <div class="grid-item">K</div>
+            <div class="grid-item">L</div>
+            <div class="grid-item">M</div>
+            <div class="grid-item">N</div>
+            <div class="grid-item">O</div>
+            <div class="grid-item">P</div>
+            <div class="grid-item">Q</div>
+            <div class="grid-item">R</div>
+            <div class="grid-item">S</div>
+            <div class="grid-item">T</div>
+            <div class="grid-item">U</div>
+            <div class="grid-item">V</div>
+            <div class="grid-item">W</div>
+            <div class="grid-item">X</div>
+            <div class="grid-item">Y</div>
+            <div class="grid-item">Z</div>
+            
+          </div>
 </body>
+
 </html>
