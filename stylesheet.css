@@ -1,11 +1,39 @@
+
+body {
+    background-color: azure;
+    font-size: 40px;
+    border: 30px;
+
+}
+
 h1 {
     text-align: center;
     font-size: 50px;
+    color: blue;
+    font-family: 'Luckiest Guy', cursive;
+    
+    
 }
 h2 {
     text-align: center;
+    color: red;
     font-size: 30px;
+    font-family: 'Luckiest Guy', cursive;
+    
 }
+h3{
+    text-align: center;
+    color: teal;
+    font-size: 25px;
+    font-family: 'Luckiest Guy', cursive;
+}
+span {
+    font-size: 50px;
+    text-decoration: underline;
+    font-family: 'Luckiest Guy', cursive;
+}
+
+
 .flex-container {
     display: flex;
     flex-direction: column;
@@ -32,6 +60,14 @@ h2 {
     grid-template-rows: 1fr 1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     width: 200px;
-    font-size: 25px;
+    font-size: 40px;
+    font-family: 'Merienda', cursive;
+    
   }
+  .trademark {
+      font-size: 18px;
+      color: red;
+      font-family: 'Luckiest Guy', cursive;
+  }
+
   

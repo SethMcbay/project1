@@ -1,4 +1,4 @@
-let arrOfFruits = ['APPLE', 'ORANGE', 'PEAR', 'BANANA', 'PINEAPPLE']
+let arrOfFruits = ['APPLE', 'BANANA', 'PEAR', 'PINEAPPLE', 'ORANGE', 'KIWI', 'COCONUT', 'STRAWBERRY', 'BLUEBERRY'] 
 let word = ''
 let counter = 0
 let score = 0
