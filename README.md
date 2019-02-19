@@ -7,3 +7,5 @@ These are my ideas that i wanted to accomplish at first and also my goals for th
 <img src='img/IMG_0606.JPG' alt='wireframe2' height=250 width=200/>
 
 
+This is my Trello board, i got most of my objectives done but not all of them.
+<a href="https://trello.com/b/3jNRhuxu/seth">Trello</a>
