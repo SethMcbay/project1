@@ -52,13 +52,13 @@ function checkForWin(letter) {
       amountOfTimesLetterIsNotInWord += 1
       if (amountOfTimesLetterIsNotInWord === word.length) {
         limit -= 1
-        // console.log(limit)
+        
         $('.lives div').replaceWith(`<div>lives: ${limit}</div>`)
       }
 
     } else {
       score += 1
-      console.log(score)
+      
     }
    
     if (limit === 0)
