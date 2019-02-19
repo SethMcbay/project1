@@ -30,10 +30,7 @@ $('.grid-item').on('click', function () {
   let letterThis = $(this)[0].textContent
   $(`.${letterThis}`).text(letterThis)
   let split = word.split('')
-  // if(split.includes(letterThis)){
-
-  //   winArr.push(letterThis)
-  // }
+  
   
   for(let i = 0; i < split.length; i++){
     if(split[i] === letterThis){
@@ -46,9 +43,7 @@ $('.grid-item').on('click', function () {
 function checkForWin(letter) {
   let amountOfTimesLetterIsNotInWord = 0
   let wordArr = word.split('')
-  // if(winArr.length === wordArr.length) {
-  //   alert('you win!')
-  // }
+  
   if(count === wordArr.length){
     alert('you win')
   }
@@ -72,15 +67,4 @@ function checkForWin(letter) {
 }
 
 
-
-// arrayOfFruits.indexOf(event.currentTarget.innerHTML)
-
-
-// console.log(arrOfFruits[getRandomWord(arrOfFruits)])
-
-// SCOREBOARD
-// create a counter variable set to 0 by default
-// when a player scores, increase the counter variable by 1
-// then use the html() method to display the score in the browser
-// for example
 
