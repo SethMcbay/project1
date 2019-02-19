@@ -45,22 +45,24 @@ function checkForWin(letter) {
   let wordArr = word.split('')
   
   if(count === wordArr.length){
-    alert('you are the winner')
+    alert('you win')
   }
   for (let i = 0; i < word.length; i++) {
     if (letter !== word[i]) {
       amountOfTimesLetterIsNotInWord += 1
       if (amountOfTimesLetterIsNotInWord === word.length) {
         limit -= 1
-        console.log(limit)
+        // console.log(limit)
+        $('.lives div').replaceWith(`<div>lives: ${limit}</div>`)
       }
+
     } else {
       score += 1
       console.log(score)
     }
    
     if (limit === 0)
-      alert ('you lose, you loser!')
+      alert ('you lose')
 
   }
 
