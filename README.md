@@ -4,5 +4,6 @@ Hangman is a simple game where you guess certain letters that go into a word on 
 
 These are my ideas that i wanted to accomplish at first and also my goals for the project in the future.
 <img src='img/IMG_0605.JPG' alt='wireframe1' height=250 width=200/>
+<img src='img/IMG_0606.JPG' alt='wireframe2' height=250 width=200/>
 
 
