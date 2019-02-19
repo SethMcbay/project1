@@ -12,4 +12,8 @@ This is my Trello board, i got most of my objectives done but not all of them.
 
 I used the following technologies for my page: HTML, CSS, Javascript and JQuery.
 
+This is my deployed site:
+<a href="https://epic-tesla-d39b2a.netlify.com/">Deployed Site</a>
+
+
 
