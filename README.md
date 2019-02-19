@@ -13,3 +13,14 @@ https://trello.com/b/3jNRhuxu/seth
 These are my wireframes:
 ![alt text](img/IMG_0605.JPG "Wireframe 1")
 ![alt text](img/IMG_0606.JPG "Wireframe 2")
+
+I used HTML, CSS, Javascript, and JQuery for my project languages.
+
+My goals of my hangman project in the future are:
+1. make it responsive.
+2. add a 2 player mode.
+3. add an actual animated image for my hangman that adds head and limbs to the      noose, also create a platform for the noose to hang from.
+4. add hints for the word you want to guess.
+5. add questions to ask to start the game off.
+6. redo the css and html to make the game go along with the responsiveness.
+
