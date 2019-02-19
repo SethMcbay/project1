@@ -9,3 +9,7 @@ These are my ideas that i wanted to accomplish at first and also my goals for th
 
 This is my Trello board, i got most of my objectives done but not all of them.
 <a href="https://trello.com/b/3jNRhuxu/seth">Trello</a>
+
+I used the following technologies for my page: HTML, CSS, Javascript and JQuery.
+
+
