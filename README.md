@@ -9,3 +9,7 @@ https://epic-tesla-d39b2a.netlify.com
 
 This is my Trello page:
 https://trello.com/b/3jNRhuxu/seth
+
+These are my wireframes:
+![alt text](img/IMG_0605.JPG "Wireframe 1")
+![alt text](img/IMG_0606.JPG "Wireframe 2")
