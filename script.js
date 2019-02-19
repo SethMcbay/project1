@@ -45,7 +45,7 @@ function checkForWin(letter) {
   let wordArr = word.split('')
   
   if(count === wordArr.length){
-    alert('you win')
+    alert('you are the winner')
   }
   for (let i = 0; i < word.length; i++) {
     if (letter !== word[i]) {
@@ -60,7 +60,7 @@ function checkForWin(letter) {
     }
    
     if (limit === 0)
-      alert ('you lose')
+      alert ('you lose, you loser!')
 
   }
 
